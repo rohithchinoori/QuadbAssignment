@@ -1,0 +1,18 @@
+.head {
+  font-family: 'Bree Serif';
+  color: #371c92;
+  padding: 20px;
+}
+.movie-list {
+  list-style: none;
+  padding: 5px;
+  margin-top: 0px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.bg {
+  background-color: #cacfc2;
+  padding: 5px;
+}

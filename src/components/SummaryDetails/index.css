@@ -1,0 +1,73 @@
+.sum-bg {
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+}
+.desc {
+  margin: 10px;
+  max-width: 60%;
+}
+.img {
+  margin: 5px;
+}
+@media (max-width: 768px) {
+  .desc {
+    margin: 10px;
+    max-width: 90%;
+  }
+  .img {
+    margin: 5px;
+  }
+}
+.sum {
+  color: #2c4256;
+  font-family: 'caviet';
+}
+.book {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.ticket {
+  background-color: #2b8fea;
+  color: #fff;
+  border-width: 0px;
+  border-radius: 5px;
+  height: 25px;
+  margin: 10px;
+  cursor: pointer;
+}
+.pop {
+  background-color: #848988;
+  height: 350px;
+  width: 350px;
+  border-radius: 10px;
+}
+.form {
+  background-color: #848988;
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+}
+.title {
+  color: #0c0d0d;
+  text-align: center;
+}
+.input-cont {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.input {
+  width: 70%;
+  margin: 5px;
+}
+.form-but {
+  background-color: #1578b4;
+  color: #fff;
+  border-radius: 5px;
+  border-width: 0px;
+  margin: 10px;
+  width: 100px;
+  height: 25px;
+}

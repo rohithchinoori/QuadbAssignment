@@ -1,0 +1,32 @@
+.card {
+  background-color: #49484b;
+  border-radius: 8px;
+  width: 300px;
+  padding: 10px;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.name {
+  color: #fff;
+  font-size: 25px;
+  font-family: 'Roboto';
+}
+.image {
+  height: 250px;
+  width: 250px;
+}
+.but {
+  background-color: #0fa2e7;
+  color: #fff;
+  cursor: pointer;
+  padding: 5px;
+  margin-top: 15px;
+}
+.but-cont {
+  margin: 15px;
+}
+.anchor {
+  color: #fff;
+}

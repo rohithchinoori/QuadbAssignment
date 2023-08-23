@@ -1,0 +1,8 @@
+.ul {
+  list-style: none;
+}
+.bg-1 {
+  background-color: #b7ded9;
+  height: 100vh;
+  padding: 5px;
+}
