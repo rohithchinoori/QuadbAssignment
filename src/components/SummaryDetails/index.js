@@ -28,12 +28,16 @@ class SummaryDetails extends Component {
 
   render() {
     const {details} = this.props
+    const {summary} = details
+    const parser = new DOMParser()
+    const doc = parser.parseFromString(summary, 'text/html')
+    const plainText = doc.body.textContent
     return (
       <li className="sum-bg">
         <img src={details.image.medium} alt="movie" className="img" />
         <div>
           <h1 className="sum">Summary:</h1>
-          <p className="desc">{details.summary}</p>
+          <div>{plainText}</div>
           <div className="book">
             <p>
               <b>Language</b> : {details.language}
